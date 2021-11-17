@@ -1,0 +1,6 @@
+.text-primary{
+    color: #294377;
+}
+.btn-primary, .bg-primary, .btn-primary:hover{
+    background-color: #294377;
+}

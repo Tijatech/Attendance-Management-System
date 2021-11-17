@@ -30,6 +30,10 @@
         <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
     
     </form>
+    <div class="pt-3">
+      <a href="index.php">Home</a> 
+    </div>
+    
 </main>
 
     

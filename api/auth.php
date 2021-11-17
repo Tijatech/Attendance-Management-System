@@ -16,6 +16,10 @@ if(isset($rqst)){
         $auth = signup($_POST);
         $rsp["status"] = $auth ? true : false;
         $rsp["message"] = $auth ? "Account Created Successful. Redirecting..." : "Looks like something is wrong. Please Try again";
+    }else if($rqst === "logout"){
+        session_unset();
+        header("Location: /attms/index.php", true, 302);
+        exit;
     }
 }
 
